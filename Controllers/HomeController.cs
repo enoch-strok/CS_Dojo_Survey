@@ -19,18 +19,11 @@ namespace CS_Time_Display_B.Controllers
         }
 
 
-        public IActionResult Index()
-        {
-            return View();
-        }
+ 
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
+ 
         [HttpGet]
-        [Route("method")]
+        [Route("/")]
         public IActionResult Method()
         {
             // Do something with form input
